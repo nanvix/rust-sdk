@@ -17,7 +17,7 @@ rmcp = { path = "../../crates/rmcp", features = [
 tokio = { version = "1", default-features = false, features = [
     "macros",
     "rt",
-    "rt-multi-thread",
+    # "rt-multi-thread",
     "io-std",
     # "signal",
     # "tracing",
